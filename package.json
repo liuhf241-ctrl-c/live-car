@@ -1,0 +1,32 @@
+{
+  "homepage": "https://liuhf241-ctrl-c.github.io/live-car",
+  "name": "live-car-create",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "element-plus": "^2.13.3",
+    "html2canvas": "^1.4.1",
+    "qrcode": "^1.5.4",
+    "vue": "^3.5.25"
+  },
+  "devDependencies": {
+    "@types/html2canvas": "^0.5.35",
+    "@types/node": "^24.10.1",
+    "@types/qrcode": "^1.5.6",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "@vue/tsconfig": "^0.8.1",
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vue-tsc": "^3.1.5"
+  }
+}
